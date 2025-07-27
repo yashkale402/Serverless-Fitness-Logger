@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fitness Logger - History</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <h1 class="nav-logo">💪 Fitness Logger</h1>
+            <ul class="nav-menu">
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="history.html" class="nav-link active">History</a></li>
+                <li><a href="progress.html" class="nav-link">Progress</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main class="main-content">
+        <div class="container">
+            <h1 class="page-title">📋 Workout History</h1>
+            
+            <div class="filter-section">
+                <input type="text" id="searchInput" placeholder="Search by exercise or category..." class="search-input">
+                <input type="date" id="dateFilter" class="date-filter">
+                <select id="categoryFilter" class="category-filter">
+                    <option value="">All Categories</option>
+                    <option value="Push">Push</option>
+                    <option value="Pull">Pull</option>
+                    <option value="Legs">Legs</option>
+                    <option value="Cardio">Cardio</option>
+                </select>
+            </div>
+            
+            <div class="table-container">
+                <table id="historyTable" class="history-table">
+                    <thead>
+                        <tr>
+                            <th>Date</th>
+                            <th>Exercise</th>
+                            <th>Category</th>
+                            <th>Sets</th>
+                            <th>Reps</th>
+                            <th>Weight</th>
+                            <th>Action</th>
+                        </tr>
+                    </thead>
+                    <tbody id="historyTableBody">
+                        <!-- Workout data will be populated here -->
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </main>
+
+    <script src="aws-config.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
