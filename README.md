@@ -70,7 +70,7 @@ This application runs entirely within AWS free tier limits:
 
 ## 🔗 Live Demo
 
-[Live Application](http://fitness-logger-yashh1912.s3-website.ap-south-1.amazonaws.com)
+[Live Application](https://master.d3gai7idzwfm3.amplifyapp.com/)
 
 ## 👨‍💻 Author
 
