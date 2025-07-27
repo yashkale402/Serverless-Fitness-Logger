@@ -23,7 +23,7 @@ A modern, serverless fitness tracking web application built with AWS services. T
 - **Frontend**: HTML5, CSS3, JavaScript (ES6+), Chart.js
 - **Backend**: Python 3.12, AWS Lambda
 - **Database**: Amazon DynamoDB
-- **Infrastructure**: AWS (S3, API Gateway, Lambda, DynamoDB, IAM, CloudWatch)
+- **Infrastructure**: AWS (Amplify,S3, API Gateway, Lambda, DynamoDB, IAM, CloudWatch)
 
 ## 📱 Screenshots
 
