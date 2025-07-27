@@ -55,7 +55,7 @@ See [deployment-guide.md](docs/deployment-guide.md) for detailed setup instructi
 
 ### S3 Hosting
 ![S3 Bucket](screenshots/aws-console/s3-bucket-overview.png)
-![Website Hosting](screenshots/aws-console/s3-website-hosting.png)
+![Website Hosting](screenshots/aws-console/amplify-website-hosting.png)
 
 ### Monitoring
 ![CloudWatch Logs](screenshots/aws-console/cloudwatch-logs.png)
